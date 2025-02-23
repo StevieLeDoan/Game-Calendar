@@ -38,16 +38,17 @@ function fetchGamesForMonth(year, month) {
 
             <div class="date">
                 <strong>${i}</strong>
-                ${gamesForDay.map(game => `
-                    <div class="game" data-id="${game.id}">
-                        <img src="${game.background_image}" alt="${game.name} Thumbnail">
-                        <div class="game-details">${game.name}</div>
-                    </div>
-                `).join('')}
+                <div class="gallery">
+                    ${gamesForDay.map(game => `
+                        <div class="game" data-id="${game.id}">
+                            <img src="${game.background_image}" alt="${game.name} Thumbnail">
+                            <div class="game-details">${game.name}</div>
+                        </div>
+                    `).join('')}
+                </div>
             </div>
             `;
         }
-
         document.getElementById('calendar').innerHTML = htmlContent;
         document.getElementById('currentMonthYear').innerText = `${monthNames[month]} ${year}`;
 
