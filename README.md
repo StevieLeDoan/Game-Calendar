@@ -1,6 +1,6 @@
 # Game-Calendar
 
-I decided to make this project using JS, HTML, and CSS. The reasoning behind it is my love for video games and how easy it is for me to keep track of what big titles are being released. Here it also describes the game itself when clicked on along when additional information about that game. For certain days when multiple games are released on the same day, there is an option to either click or scroll over to see more titles. The data that I used was an API key that I was able to get from rawg.io which is a huge database for video games. 
+I decided to make this project using JS, HTML, and CSS. My love for video games and how easy it is to keep track of what big titles are being released is what inspired me to create this. Here it also describes the game itself when clicked on along with any additional information about that said game. For certain days when multiple games are released on the same day, there is an option to click and scroll over to see more titles. The data that I used was an API key that I was able to get from rawg.io which is a huge database for video games. 
 
 ![image](https://github.com/user-attachments/assets/0287bd16-dda0-4568-ab81-3a0f3c70c53a)
 
